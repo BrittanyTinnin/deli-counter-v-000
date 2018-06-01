@@ -21,4 +21,9 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
+  if
+    puts
+  else
+    puts
+  end
 end
