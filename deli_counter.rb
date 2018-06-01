@@ -21,8 +21,8 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
-  if
-    puts
+  if katz_deli.first == 1
+    puts 
   else
     puts
   end
