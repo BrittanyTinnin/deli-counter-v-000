@@ -21,9 +21,9 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
-  if katz_deli.first == 1
-    puts 
-  else
+  if katz_deli.length == 0
+    puts "There is nobody waiting to be served!"
+  elsif katz_deli.length == 1
     puts
   end
 end
