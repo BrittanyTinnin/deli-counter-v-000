@@ -17,5 +17,5 @@ end
 
 def take_a_number(katz_deli, name)
   inLine = katz_deli << name
-  puts inLine
+  puts "Welcome, #{name}. You are number #{{katz_deli[index]}} in line.s"
 end
