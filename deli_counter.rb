@@ -21,8 +21,8 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
+  binding.pry
   if katz_deli.length >= 1
-    binding.pry
     puts "Currently serving #{name}."
   else
     puts "There is nobody waiting to be served!"
