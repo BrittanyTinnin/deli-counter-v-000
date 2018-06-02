@@ -22,11 +22,11 @@ end
 
 def now_serving(name)
   binding.pry
-  if katz_deli.length >= 1
+  if katz_deli.empty?
+    puts "There is nobody waiting to be served!"
     # katz_deli << name
+  else
     puts "Currently serving #{name}."
     katz_deli.shift
-  else
-    puts "There is nobody waiting to be served!"
   end
 end
