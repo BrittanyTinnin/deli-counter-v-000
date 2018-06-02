@@ -21,6 +21,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
+  binding.pry
   if katz_deli.length >= 1
     # katz_deli << name
     puts "Currently serving #{name}."
